@@ -11,10 +11,19 @@
 		9A5D9C8D1AF942C300E38000 /* Smart_Rider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9C8B1AF942C300E38000 /* Smart_Rider.xcdatamodeld */; };
 		9A5D9C8F1AF942C300E38000 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9C8E1AF942C300E38000 /* MasterViewController.swift */; };
 		9A5D9C911AF942C300E38000 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9C901AF942C300E38000 /* DetailViewController.swift */; };
-		9A5D9C941AF942C300E38000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D9C921AF942C300E38000 /* Main.storyboard */; };
 		9A5D9C961AF942C300E38000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D9C951AF942C300E38000 /* Images.xcassets */; };
 		9A5D9C991AF942C300E38000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D9C971AF942C300E38000 /* LaunchScreen.xib */; };
 		9A5D9CA51AF942C300E38000 /* Smart_RiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CA41AF942C300E38000 /* Smart_RiderTests.swift */; };
+		9A5D9CAF1AF9436B00E38000 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D9CAE1AF9436B00E38000 /* Storyboard.storyboard */; };
+		9A5D9CB21AF943DB00E38000 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CB11AF943DB00E38000 /* SwiftCoreDataHelper.swift */; };
+		9A5D9CB41AF9440B00E38000 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CB31AF9440B00E38000 /* MainPageViewController.swift */; };
+		9A5D9CB61AF9444500E38000 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CB51AF9444500E38000 /* AddItemViewController.swift */; };
+		9A5D9CC11AF9496400E38000 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CBE1AF9496400E38000 /* Service.swift */; };
+		9A5D9CC21AF9496400E38000 /* Pneu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CBF1AF9496400E38000 /* Pneu.swift */; };
+		9A5D9CC31AF9496400E38000 /* Moto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CC01AF9496400E38000 /* Moto.swift */; };
+		9A5D9CC51AF94E4500E38000 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CC41AF94E4500E38000 /* AddContactTableViewController.swift */; };
+		9A5D9CC71AF9537B00E38000 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CC61AF9537B00E38000 /* ContactsTableViewController.swift */; };
+		9A5D9CC91AF9578A00E38000 /* cvwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D9CC81AF9578A00E38000 /* cvwCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +43,21 @@
 		9A5D9C8C1AF942C300E38000 /* Smart_Rider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Rider.xcdatamodel; sourceTree = "<group>"; };
 		9A5D9C8E1AF942C300E38000 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		9A5D9C901AF942C300E38000 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		9A5D9C931AF942C300E38000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A5D9C951AF942C300E38000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A5D9C981AF942C300E38000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A5D9C9E1AF942C300E38000 /* Smart_RiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_RiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5D9CA31AF942C300E38000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A5D9CA41AF942C300E38000 /* Smart_RiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_RiderTests.swift; sourceTree = "<group>"; };
+		9A5D9CAE1AF9436B00E38000 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		9A5D9CB11AF943DB00E38000 /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftCoreDataHelper.swift; path = ../../ContactU/ContactU/SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
+		9A5D9CB31AF9440B00E38000 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewController.swift; path = ../../ContactU/ContactU/MainPageViewController.swift; sourceTree = "<group>"; };
+		9A5D9CB51AF9444500E38000 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = ../../ContactU/ContactU/AddItemViewController.swift; sourceTree = "<group>"; };
+		9A5D9CBE1AF9496400E38000 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9A5D9CBF1AF9496400E38000 /* Pneu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pneu.swift; sourceTree = "<group>"; };
+		9A5D9CC01AF9496400E38000 /* Moto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moto.swift; sourceTree = "<group>"; };
+		9A5D9CC41AF94E4500E38000 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
+		9A5D9CC61AF9537B00E38000 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		9A5D9CC81AF9578A00E38000 /* cvwCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cvwCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +99,17 @@
 		9A5D9C861AF942C300E38000 /* Smart_Rider */ = {
 			isa = PBXGroup;
 			children = (
+				9A5D9CB71AF9491A00E38000 /* Base_de_donnees */,
+				9A5D9CB01AF943CC00E38000 /* Helper Class */,
 				9A5D9C891AF942C300E38000 /* AppDelegate.swift */,
+				9A5D9CC81AF9578A00E38000 /* cvwCell.swift */,
+				9A5D9CC61AF9537B00E38000 /* ContactsTableViewController.swift */,
+				9A5D9CC41AF94E4500E38000 /* AddContactTableViewController.swift */,
+				9A5D9CB51AF9444500E38000 /* AddItemViewController.swift */,
 				9A5D9C8E1AF942C300E38000 /* MasterViewController.swift */,
 				9A5D9C901AF942C300E38000 /* DetailViewController.swift */,
-				9A5D9C921AF942C300E38000 /* Main.storyboard */,
+				9A5D9CB31AF9440B00E38000 /* MainPageViewController.swift */,
+				9A5D9CAE1AF9436B00E38000 /* Storyboard.storyboard */,
 				9A5D9C951AF942C300E38000 /* Images.xcassets */,
 				9A5D9C971AF942C300E38000 /* LaunchScreen.xib */,
 				9A5D9C8B1AF942C300E38000 /* Smart_Rider.xcdatamodeld */,
@@ -116,6 +141,24 @@
 				9A5D9CA31AF942C300E38000 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A5D9CB01AF943CC00E38000 /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				9A5D9CB11AF943DB00E38000 /* SwiftCoreDataHelper.swift */,
+			);
+			name = "Helper Class";
+			sourceTree = "<group>";
+		};
+		9A5D9CB71AF9491A00E38000 /* Base_de_donnees */ = {
+			isa = PBXGroup;
+			children = (
+				9A5D9CBE1AF9496400E38000 /* Service.swift */,
+				9A5D9CBF1AF9496400E38000 /* Pneu.swift */,
+				9A5D9CC01AF9496400E38000 /* Moto.swift */,
+			);
+			name = Base_de_donnees;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5D9C941AF942C300E38000 /* Main.storyboard in Resources */,
+				9A5D9CAF1AF9436B00E38000 /* Storyboard.storyboard in Resources */,
 				9A5D9C991AF942C300E38000 /* LaunchScreen.xib in Resources */,
 				9A5D9C961AF942C300E38000 /* Images.xcassets in Resources */,
 			);
@@ -218,10 +261,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5D9CC31AF9496400E38000 /* Moto.swift in Sources */,
 				9A5D9C8D1AF942C300E38000 /* Smart_Rider.xcdatamodeld in Sources */,
+				9A5D9CC71AF9537B00E38000 /* ContactsTableViewController.swift in Sources */,
+				9A5D9CC51AF94E4500E38000 /* AddContactTableViewController.swift in Sources */,
+				9A5D9CC91AF9578A00E38000 /* cvwCell.swift in Sources */,
+				9A5D9CC11AF9496400E38000 /* Service.swift in Sources */,
 				9A5D9C8A1AF942C300E38000 /* AppDelegate.swift in Sources */,
+				9A5D9CB21AF943DB00E38000 /* SwiftCoreDataHelper.swift in Sources */,
 				9A5D9C8F1AF942C300E38000 /* MasterViewController.swift in Sources */,
+				9A5D9CB61AF9444500E38000 /* AddItemViewController.swift in Sources */,
+				9A5D9CB41AF9440B00E38000 /* MainPageViewController.swift in Sources */,
 				9A5D9C911AF942C300E38000 /* DetailViewController.swift in Sources */,
+				9A5D9CC21AF9496400E38000 /* Pneu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A5D9C921AF942C300E38000 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A5D9C931AF942C300E38000 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A5D9C971AF942C300E38000 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
